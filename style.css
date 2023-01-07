@@ -2,6 +2,7 @@
  * {
     font-family: 'IBM Plex Mono', monospace;
     color: green;
+    background-color: black;
 }
 
 .date-time {
@@ -11,6 +12,20 @@
     border-style: solid;
     border-color: green;
     padding: 5px;
+    background-color: green;
+    color: black;
+}
+#date {
+    background-color: green;
+    color: black;
+}
+#date-time {
+    background-color: green;
+    color: black;
+}
+.title {
+    border-style: solid;
+    padding-left: 20px;
 }
 
 .text {
@@ -19,4 +34,98 @@
     border-style: solid;
     border-color: green;
     padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
+
+button {
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    color: green;
+    border-style: solid;
+    border-color: green;
+}
+.button:hover {
+    background-color: green;
+    color: black;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.window-container {
+    display:flex;
+    height: 300px;
+    border-style: solid;
+    border-color: green;
+    padding: 10px;
+    margin-top: 30px;
+    justify-content: space-between;
+
+}
+.window1 {
+    border-style: solid;
+    border-color: green;
+    width: 48%;
+
+
+}
+.window2 {
+    border-style: solid;
+    border-color: green;
+    width: 48%;
+}
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: green;
+    height: 500px;
+}
+.rock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    margin: 20px;
+}
+.paper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    margin: 20px;
+}
+
+
+.scissors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    margin: 20px;
+    border-style: solid;
+    margin: 20px;
+}
+
+.rock:hover {
+    border-color: yellowgreen;
+    color: yellow;
+}
+.paper:hover {
+    border-color: yellowgreen;
+    color: yellow;
+}
+.scissors:hover {
+    border-color: yellowgreen;
+    color: yellow;
+}
+
