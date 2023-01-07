@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  
+    <title>Game</title>
+</head>
+<body>
+    
+
+    <div>
+        <div>
+            <img src="" alt="">
+            <p>rock</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>paper</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>scissors</p>
+        </div>
+        <script>
+            
+            let choice1 = prompt (' pick one: rock, paper, scissors!');
+
+            let choice2 =  Math.floor(Math.random()*3);
+                if ( choice2 === 1) {
+                    return choice2 = 'rock';
+                } else if ( choice2 === 2){
+                    return choice2 = 'scissors';
+                }  else choice2 = 'paper';
+
+            let game = (choice1, choice2) => {
+                if (choice1 === choice2) {
+                    return 'tie';
+                    }
+
+                if (choice1 === 'paper' && choice2 ==='rock') {
+                     return 'Paper defeats rock. yay!';
+                } else if ( choice2 === 'scissors' ) {
+                     return 'scissors wins.';
+                }
+
+                if ( choice1 === 'rock' && choice2==='scissors'){
+                     return ' Rock defeats scissors. woo!';
+                } else if (choice2 === 'paper') {
+                    return 'paper wins';
+                }
+                if ( choice1 === 'scissors' && choice2 === 'paper') {
+                     return 'Scissors defeats paper. ooooo.';
+                } else if (choice2 === 'rock') {
+                    return 'rock wins';
+                }
+    };
+        </script>
+
+    </div>
+    
+
+    
+    <script src='../javascript/app.js'></script>
+   
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+ * {
+    font-family: 'IBM Plex Mono', monospace;
+    color: green;
+}
+
+.date-time {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    border-style: solid;
+    border-color: green;
+    padding: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: green;
+    padding: 5px;
+}

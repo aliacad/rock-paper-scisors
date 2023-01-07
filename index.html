@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scisors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="date-time">
+
+        <p class="date"><span id="date"></span></p>
+
+        <p class="time"><span id="date-time"></span></p>
+
+        <script>
+            var dt = new Date().toLocaleTimeString();
+            document.getElementById('date-time').innerHTML=dt;
+            var dt = new Date().toLocaleDateString();
+            document.getElementById('date').innerHTML=dt;
+        </script>
+    </div>
+
+    <div class="text"> 
+        <h1> Rock, Paper, Scissors.</h1>
+        <h2> Will you win...</h2>
+        <h3>I mean like its 50/50 so your chances are pretty good, 
+            but i guess thats more of a glass half full kinda outlook.
+        </h3>
+        <h4> either way click that little button and yah, come on in.</h4>
+    </div>
+    <div> 
+         <a href="./play.html"><button > touch me pls </button></a>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
